@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: black;
+}
+
+.container{
+    position: absolute;
+    left: 48%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+input{
+    height: 60px;
+    width: 0px;
+    outline: none;
+    padding: 0 20px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid #D50000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+
+
+::placeholder{
+    color: blue;
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #D50000;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn i{
+    font-size: 25px;
+    line-height: 80px;
+    color: white;
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+}
+
+.container:hover input{
+    width: 350px;
+}
+
+.container:hover i{
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
