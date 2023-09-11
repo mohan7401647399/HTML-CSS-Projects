@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <ul class="pagination">
+            <li><a href="#"></a>Previous</li>
+            <li><a href="#"></a>1</li>
+            <li><a href="#"></a>2</li>
+            <li><a href="#"></a>3</li>
+            <li><a href="#"></a>4</li>
+            <li><a href="#"></a>5</li>
+            <li><a href="#"></a>6</li>
+            <li><a href="#"></a>7</li>
+            <li><a href="#"></a>8</li>
+            <li><a href="#"></a>Next</li>
+        </ul>
+    </div>
+    <script>
+        $("li").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        })
+    </script>
+</body>
+</html>

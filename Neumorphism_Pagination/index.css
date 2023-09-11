@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background-color:aliceblue
+}
+
+.container{
+    background-color:aqua;
+    padding: 25px;
+    box-shadow: -3px -3px 7px gray, 3px 3px 5px rgba(94, 104, 121, 0.288) ;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.container .pagination {
+    display: flex;
+    list-style: none;
+}
+
+.container .pagination li{
+    flex: 1;
+    margin: 0 5px;
+    border-radius: 3px;
+    background:aqua;
+    box-shadow: -3px -3px 7px gray, 3px 3px 5px rgba(94, 104, 121, 0.288) ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.pagination li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    height: 45px;
+    width: 55px;
+    display: block;
+    line-height: 45px;
+}
+
+.pagination li.active{
+    box-shadow: inset -3px -3px 7px gray, inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.pagination li.active a{
+    font-size: 17px;
+    color: blue;
+}
+
+.pagination li:first-child a{
+    width: 120px; 
+}
+
+.pagination li:last-child a{
+    width: 100px;
+}
+.pagination li:first-child a{
+    margin: 0 15px 0 0; 
+}
+
+.pagination li:last-child a{
+    margin: 0 0 0 15px;
+}
