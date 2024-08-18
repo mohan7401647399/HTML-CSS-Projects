@@ -1,0 +1,106 @@
+.relative {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+}
+
+.child-one {
+  background-color: red;
+  position: relative;
+  left: 100px;
+}
+
+.child-two {
+  background-color: yellow;
+}
+
+.child-three {
+  background-color: green;
+}
+
+.absolute {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.absolute .child-one {
+  background-color: red;
+  position: absolute;
+  left: 100px;
+}
+
+.absolute .child-two {
+  background-color: yellow;
+}
+
+.absolute .child-three {
+  background-color: green;
+}
+
+.fixed {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  height: 200vh;
+}
+
+.fixed .child-one {
+  background-color: red;
+  position: fixed;
+  left: 10px;
+}
+
+.fixed .child-two {
+  background-color: yellow;
+}
+
+.fixed .child-three {
+  background-color: green;
+}
+
+.sticky {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  height: 200vh;
+}
+
+.sticky .child-one {
+  background-color: red;
+  position: sticky;
+  top: 0;
+}
+
+.sticky .child-two {
+  background-color: yellow;
+}
+
+.sticky .child-three {
+  background-color: green;
+}
+
+.static {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  height: 200vh;
+}
+
+.static .child-one {
+  background-color: red;
+  position: static;
+  left: 10px;
+}
+
+.static .child-two {
+  background-color: yellow;
+}
+
+.static .child-three {
+  background-color: green;
+}
