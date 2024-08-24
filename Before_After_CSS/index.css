@@ -1,0 +1,49 @@
+html {
+  font-family: poppins, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  position: relative;
+  width: max-content;
+  background: gray;
+  padding: 10px;
+  height: max-content;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+h1::after {
+  content: "";
+  background: linear-gradient(to right, red, blue);
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+h2 {
+  position: relative;
+  height: max-content;
+  width: max-content;
+  background: gray;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+h2::before {
+  content: "";
+  background: linear-gradient(to right, blue, red);
+  height: 4px;
+  width: 90%;
+  position: absolute;
+}
